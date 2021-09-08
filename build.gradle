@@ -17,3 +17,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+// 编译时使用 UTF-8 编码
+tasks.withType(JavaCompiler) {
+    options.encoding = "UTF-8"
+}
