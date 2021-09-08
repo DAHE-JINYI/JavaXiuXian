@@ -19,6 +19,6 @@ test {
 }
 
 // 编译时使用 UTF-8 编码
-tasks.withType(JavaCompiler) {
+tasks.withType( JavaCompile ) {
     options.encoding = "UTF-8"
 }
