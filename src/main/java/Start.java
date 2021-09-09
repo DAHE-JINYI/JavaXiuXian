@@ -21,6 +21,9 @@ public class Start {
                 case "G":
                     knapsack.addItem("★     | 石头");
                     break;
+                case "Q":
+                    knapsack.removeItem(0);
+                    break;
             }
         }
     }
@@ -31,6 +34,7 @@ public class Start {
                 [B] - 查看背包。
                 [L] - 查看自身状态。
                 [G] - 捡起一块石头。
+                [Q] - 丢弃背包中第一个物品。
                 """
         );
     }
