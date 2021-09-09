@@ -5,7 +5,8 @@ public class Start {
         Scanner in = new Scanner(System.in);
         Player player = new Player(300, 1000, 1, 10);
         Knapsack knapsack = new Knapsack();
-        System.out.println("你醒了。\n（输入[H]获取帮助）");
+        Story story = new Story();
+        System.out.println("（输入[H]获取帮助）");
         while (true) {
             String input = in.nextLine();
             switch (input) {
