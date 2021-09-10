@@ -20,7 +20,10 @@ public class Start {
                 case "L" -> player.getStatus();
                 case "G" -> knapsack.addItem("★   | 随处可见的石头");
                 case "Q" -> knapsack.removeItem(0);
-                case "Q1" -> System.out.println("发现了一只野生的派蒙\n" + "派蒙咬了你一口\n" + "你被吓死了.\n");
+                case "Q1" -> {
+                    System.out.println("发现了一只野生的派蒙\n派蒙咬了你一口\n你被吓死了.\n");
+                    System.exit(0);
+                }
                 case "W" -> badEvents.getBadEvent();
             }
         }
