@@ -19,10 +19,13 @@ public class Start {
                     player.getStatus();
                     break;
                 case "G":
-                    knapsack.addItem("★     | 石头");
+                    knapsack.addItem("★   | 随处可见的石头");
                     break;
                 case "Q":
                     knapsack.removeItem(0);
+                    break;
+                case "Q1":
+                    System.out.println("发现了一只野生的派蒙\n" + "派蒙咬了你一口\n" + "你被吓死了.\n");
                     break;
             }
         }
