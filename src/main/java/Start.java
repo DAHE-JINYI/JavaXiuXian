@@ -10,7 +10,7 @@ public class Start {
         Player player = new Player(300, 1000, 1, 10);
         Knapsack knapsack = new Knapsack();
         BadEvents badEvents = new BadEvents();
-//        Story story = new Story();
+        Story story = new Story();
         System.out.println("（输入[H]获取帮助）");
         while (true) {
             String input = in.nextLine();
